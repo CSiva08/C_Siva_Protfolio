@@ -1,0 +1,93 @@
+.project_main_card {
+  position: relative;
+  width: 30%; /* Adjust the width as needed */
+  height: auto; /* Allow height to adjust based on content */
+  margin: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-image: url("../Images/toll.jpeg");
+  background-size: cover; /* Ensure the background image covers the container */
+  background-position: center; /* Center the background image */
+}
+
+.project_main_card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: 1; /* Place it above the background but below other content */
+}
+
+.project_container {
+  position: relative;
+  margin: 10px;
+  width: 80%;
+  height: 80%;
+  z-index: 2;
+}
+
+.project_image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3cc4f1;
+  display: flex;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.project_container:hover .overlay {
+  width: 100%;
+  opacity: 0.75;
+}
+
+.project_container:hover .text {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-weight: bolder;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: normal; /* Allow text to wrap */
+  text-align: center; /* Center align text within the flex container */
+  opacity: 0;
+}
+
+@media (max-width: 660px) {
+  .project_main_card {
+    width: 80%; /* Adjust width for smaller screens */
+    height: 30vh;
+    margin: 10px auto; /* Center align on smaller screens */
+  }
+
+  .project_container {
+    width: 100%; /* Ensure full width on smaller screens */
+    height: 90%;
+  }
+}

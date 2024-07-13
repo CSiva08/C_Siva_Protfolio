@@ -1,0 +1,110 @@
+    [
+    {
+      "projectName": "Toll Plaza Collection",
+      "projectImage": "/toll.jpeg",
+      "projectTechnology": "Java",
+      "projectDescription": "The toll plaza collection system will be useful to the user who travel through the tolls by paying the amount to the tolls before head for the journey for a particular toll or for all tolls from one place to destination. First the user will give the travelling details of vehicle number, vehicle type and the destination. After the travelling details the user will give toll details of for which toll the user want to pay or for all tolls and the user can pay amount for single trip or return trip also available. If the user paid for the tolls, then at the tolls the payment will be verified using rfid scanner (qr code).",
+      "projectLink":"https://github.com/CSiva08/Home-Building-and-ReModelling",
+      "projectDetails": [
+        {
+          "heading": "Authentication",
+          "content": "Authentication is to validate the user’s credentials and create the user and admin."
+        },
+        {
+          "heading": "Toll modification",
+          "content": "The admin will be having the function to change the change details of tolls. Rfid verification The admin will scan the qrcode and verify the user’s payment."
+        },
+        {
+          "heading": "Travelling details",
+          "content": "The user will give the vehicle, start and destination places with which type of details."
+        },
+        {
+          "heading": "Toll details",
+          "content": "After giving the travelling details here the details of the tolls."
+        },
+        {
+          "heading": "Payment",
+          "content": "The payment will be done using the wallet or through the online mode."
+        },
+        {
+          "heading": "Record",
+          "content": "Records will store the details of the users, tolls and payment details."
+        },
+        {
+          "heading": "Theft detection",
+          "content": "If the user raised the complaint when they lost vehicle, then if that vehicle crossed the toll, then the vehicle detected and notified the user."
+        },
+        {
+          "heading": "Refund",
+          "content": "If the user not crossed the toll within 24 hours the amount will be credited to user’s account."
+        }
+      ]
+    }
+    ,
+    {
+      "projectName": "Home Building and Remodelling",
+      "projectImage": "/hbm_logo.jpg",
+      "projectTechnology": "Javascript",
+      "projectDescription": "Design and develop a comprehensive home building and remodeling platform aimed at providing a seamless and user-friendly experience for individuals seeking to construct their ideal homes or renovate their existing properties. The platform should empower users to effortlessly browse, select, and customize home designs that align with their preferences and requirements. Once a design is chosen, the platform should enable users to closely monitor the entire construction process, from the initial groundwork to the finishing touches. Additionally, the system should facilitate simultaneous financial transactions to ensure timely and efficient payments throughout the construction or remodeling project.",
+      "projectLink":"https://github.com/CSiva08/Home-Building-and-ReModelling",
+      "projectDetails": [
+          {
+            "heading": "Build",
+            "content": "This feature encompasses the core capability of designing and constructing new homes. Users can explore a variety of architectural designs, customize them to meet their preferences, and initiate the construction process for a new residence."
+          },
+          {
+            "heading": "Remodel",
+            "content": "The remodeling feature allows users to renovate and enhance their existing residences. It provides tools and options for users to modify and improve specific areas of their homes, accommodating changes to meet evolving needs and styles."
+          },
+          {
+            "heading": "Residence Showcase",
+            "content": "The Residence Showcase serves as a portfolio displaying completed projects. Users can browse through a collection of successfully built or remodeled residences, gaining inspiration for their own projects and understanding the platform's capabilities."
+          },
+          {
+            "heading": "Monitor",
+            "content": "The monitoring feature enables users to oversee the construction or remodeling process in real-time. Through images or videos, users can track the progress, ensuring transparency and allowing them to stay engaged with their projects, even when physically absent."
+          },
+          {
+            "heading": "Payment",
+            "content": "This feature facilitates financial transactions related to the construction or remodeling projects. Users can make payments at various milestones in the project, ensuring a transparent and efficient financial process."
+          },
+          {
+            "heading": "Record",
+            "content": "The record-keeping feature maintains a comprehensive log of the project. It tracks project timelines, design changes, financial transactions, and any other critical information, ensuring transparency and accountability throughout the construction or remodeling journey."
+          },
+          {
+            "heading": "Bid",
+            "content": "The bidding feature allows contractors or service providers to submit competitive bids for construction or remodeling projects. Users can review and select bids based on factors such as cost, timeline, and reputation, facilitating a transparent and competitive bidding process."
+          }
+        ]
+    },{
+      "projectName": "Portfolio",
+      "projectImage": "/portfolio.png",
+      "projectTechnology": "React",
+      "projectDescription": "My personal portfolio showcasing my skills, projects, and experience.",
+      "projectLink":"https://github.com/CSiva08/Home-Building-and-ReModelling",
+      "projectDetails": [
+        {
+          "heading": "Introduction",
+          "content": "A brief introduction about myself and my professional background."
+        },
+        {
+          "heading": "Skills",
+          "content": "List of skills and technologies I am proficient in."
+        },
+        {
+          "heading": "Resume",
+          "content": "A Resume with skills and accomplishments."
+        },
+        {
+          "heading": "Projects",
+          "content": "Highlighting some of my key projects with details."
+        },
+        {
+          "heading": "Contact",
+          "content": "Ways to contact me or connect with me on social media."
+        }
+      ]
+    }
+    
+  ]

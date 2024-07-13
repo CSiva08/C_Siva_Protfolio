@@ -1,0 +1,50 @@
+/* SocialMedia.css */
+.social_flex {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 4vh;
+  margin-bottom: 20vh;
+  width: 7vh;
+  height: 50vh;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  align-items: center; 
+  z-index: 1000; 
+  background: rgb(230,170,40);
+background: linear-gradient(90deg, rgba(230,170,40,1) 0%, rgba(125,230,25,1) 35%, rgba(0,176,255,1) 100%);
+}
+
+.social_text {
+  color: rgb(255, 255, 255);
+  font-size: 2rem; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60vh;
+  padding: 5px; 
+  transform: rotate(90deg); 
+  white-space: normal;
+}
+
+.social_icon {
+  margin-top: 4vh;
+  margin-bottom: 1.5vh;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+}
+@media (max-width:560px) {
+  .social_flex{
+    margin-right: 1vh;
+    margin-bottom: 0vh;
+    width: 40px;
+    height: 300px;
+  }  
+  .social_icon{
+    margin-bottom: 0;
+  }
+}

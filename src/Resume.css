@@ -1,0 +1,60 @@
+.resume_grid{
+    display: grid;
+    grid-template-areas: 'resume_header'
+    'resume_view';
+    width: 100%;
+}
+.resume_header{
+    grid-area: resume_header;
+    background: rgb(0,212,255);
+      background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,43,121,0.8687850140056023) 75%, rgba(2,0,36,1) 100%);
+    justify-content: center;
+    align-items: center;  
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    color: white;
+}
+.resume_view{
+    grid-area: resume_view;
+    background: rgb(12, 170, 199);
+    background: linear-gradient(90deg, rgba(12, 170, 199, 1) 0%, rgba(9, 43, 121, 0.87) 53%, rgba(32, 29, 82, 1) 100%);
+    width: 100%;
+    height: auto;
+    /* margin: 0 6vh; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 5vh 0;
+}
+.resume_navigate{
+    border-radius: 20px;
+    padding: 2vh;
+    background-color: rgb(0, 255, 242);
+    margin-top: 2vh;
+    font-size: 1rem;
+    color: black;
+}
+.resume_download{
+    margin-left: 80vh;
+    height:40vh;
+    width:40vh;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:660px){
+    img{
+        height:100vh;
+    }
+    .resume_header{
+        height: 25vh;
+    }
+    .resume_view{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 5vh 1vh;
+    }
+    
+}

@@ -1,0 +1,56 @@
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 8%;
+    color: black;
+  }
+  .flex1,.flex2{
+    padding: 2vh;
+    background: rgb(32,29,82);
+    background: linear-gradient(90deg, rgba(32,29,82,1) 0%, rgba(35,35,120,0.87)  10%, rgba(12,170,199,1) 100%);
+    white-space: normal;
+  }
+  .flex1 {
+    margin-right: 1vh;
+    flex: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .flex1:hover {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+  }
+  
+  .flex2 {
+    margin-left: 1vh;
+    flex: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .icon {
+    vertical-align: middle;
+    margin-right: 8px; /* Add space between the icon and text */
+    display: inline-block;
+    line-height: 1;
+    margin-right: 5vh;
+    margin-left: 9vh;
+  }
+  .icon_text{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    /* margin-left: 9vh; */
+  }
+  @media  (max-width:'660px'){
+    .flex_container{
+      flex-direction: column; 
+      justify-content: center; 
+      padding: 8%; 
+    }
+  
+    .flex1, .flex2 {
+      width: 45%; /* Adjust width to fit two columns on larger screens */
+      margin: 0 1%; /* Add space between columns */
+    }
+    
+  }
