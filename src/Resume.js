@@ -11,9 +11,9 @@ export const Resume = () => {
         <div className='resume_header'>
             <h1>Resume</h1>
                 <div className='resume_navigate'><p onClick={()=>Navigate('/')}>Home</p> || <p>Resume</p></div>
-            {/* <div className='resume_download'>
-                    <button onClick={() => window.open(resume_pdf, '_blank')}>Get Resume</button>
-            </div>  */}
+            { <div className='resume_download'>
+                    <button onClick={() => window.open(resume, '_blank')}>Get Resume</button>
+            </div>  }
         </div>
         <div className="resume_view">
             <img  src={resume} alt='Resume'/>
