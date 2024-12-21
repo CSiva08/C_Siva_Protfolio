@@ -13,7 +13,7 @@ export const Home = () => {
   }
   const handleDownload = () => {
     
-    const pdfUrl = "https://drive.google.com/file/d/1OfJ4xybhvZpY-ld-dwjbNNy--VIchThf/view?usp=sharing";
+    const pdfUrl = "https://drive.google.com/file/d/1bgyL8xkd8RzaGEK6oYNQLhbX1m1y2L5c/view?usp=drive_link";
         const link = document.createElement("a");
         link.href = pdfUrl;
         link.download = "C_SIVA_SOFTWARE_ENGINEER.pdf"; 
