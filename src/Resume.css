@@ -36,10 +36,11 @@
     color: black;
 }
 .resume_download{
-    margin-left: 80vh;
-    height:40vh;
-    width:40vh;
-    background-color: grey;
+    margin-top: 3vh;
+    border-radius: 20px;
+    padding: 2vh;
+    background-color: rgb(0, 255, 242);
+    color:black;
     justify-content: center;
     align-items: center;
 }
