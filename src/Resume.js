@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from './Image/Resume.jpg';
+import resume from './components/Images/Resume.jpg';
 // import resume_pdf from './C_SIVA_SOFTWARE_ENGINEER.pdf';
 import { useNavigate } from 'react-router-dom';
 import './Resume.css';
